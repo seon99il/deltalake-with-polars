@@ -1,0 +1,15 @@
+[project]
+name = "deltalake-with-polars"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.3"
+dependencies = [
+    "deltalake>=1.2.1",
+    "duckdb>=1.4.1",
+    "notebook>=7.4.7",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "polars>=1.35.1",
+    "pyarrow>=22.0.0",
+]
